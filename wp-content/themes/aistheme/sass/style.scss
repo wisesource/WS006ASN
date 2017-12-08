@@ -3082,7 +3082,7 @@ div.share-icons {
 		display: block;
 		line-height: 30px;
 		text-align: center;
-		@include transitionSocial(.2s,1s);
+		
 		
 			@media (min-width: 1200px) {
 				position: absolute;
@@ -3097,7 +3097,7 @@ div.share-icons {
 				&:hover {
 					padding: 0px 15px;
 					width: calc(100% - 20px);
-					@include transition(.2s);
+					
 					a,span {
 						display: inline;
 					}
