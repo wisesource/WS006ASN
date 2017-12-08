@@ -1,0 +1,4 @@
+wp-config.php
+error_log
+*.css.map
+.htaccess
