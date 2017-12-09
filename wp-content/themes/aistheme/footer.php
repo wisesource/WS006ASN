@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	<footer>
-		<div class="copyright">﻿Copyright © 2017 GIZ.  All Rights Reserved. Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a>.</div>
+		<div class="copyright">﻿Copyright © 2017 Aissaian co.  All Rights Reserved. Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a>.</div>
 	</footer>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
