@@ -1,12 +1,20 @@
-	<div class="footerBar">
-		<div class="container">
+
+
+	<footer>
+	<div class="footerBar container">
+		
 			<div class="row">
 				<?php get_sidebar('footer'); ?>
 			</div>
+		
+	</div>
+
+	<div class="container footerCreds">
+		<div class="row">
+			<div class="col-12 col-md-6 copyright">﻿Copyright © 2017 Aissaian co.  All Rights Reserved.</div>
+			<div class="col-12 col-md-6 wsCred">Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a></div>
 		</div>
 	</div>
-	<footer>
-		<div class="copyright">﻿Copyright © 2017 Aissaian co.  All Rights Reserved. Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a>.</div>
 	</footer>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

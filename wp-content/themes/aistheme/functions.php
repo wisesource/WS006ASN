@@ -1,6 +1,7 @@
 <?php 
 
 require_once ('includes/wp-bootstrap-navwalker.php');
+include ('includes/map-action.php');
 function out($var) {
 	echo '<pre>';
 	print_r($var);
