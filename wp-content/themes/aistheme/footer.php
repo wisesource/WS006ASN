@@ -9,10 +9,12 @@
 		
 	</div>
 
-	<div class="container footerCreds">
-		<div class="row">
-			<div class="col-12 col-md-6 copyright">﻿Copyright © 2017 Aissaian co.  All Rights Reserved.</div>
-			<div class="col-12 col-md-6 wsCred">Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a></div>
+	<div class=" footerCreds">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 copyright">﻿Copyright © 2017 Aissaian co.  All Rights Reserved.</div>
+				<div class="col-12 col-md-6 wsCred">Developed by <a href="https://wisesource.net/" target="_blank">WiseSource</a></div>
+			</div>
 		</div>
 	</div>
 	</footer>

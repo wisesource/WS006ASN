@@ -18,7 +18,7 @@
 
                         $branches_a = array (
                             'post_type' => 'branch',
-                            'order'   =>  'DESC',
+                            'order'   =>  'ASC',
                             'orderby' =>  'title',
                             'posts_per_page'  => '-1'
                         );
@@ -73,7 +73,7 @@
                                 <?php $j = true;
                                     foreach ( $branch_arr as $value ) { ?>
                                             <!-- Tab panes -->
-                                            <div role="tabpanel" class="tab-pane fade in <?php echo ($j) ? ' active show' : ''; ?>" id="<?php echo $value['slug'];  ?>">
+                                            <div role="tabpanel" class="branchInfo tab-pane fade in <?php echo ($j) ? ' active show' : ''; ?>" id="<?php echo $value['slug'];  ?>">
 
                                               <div class="branchHours">
                                                   <?php echo $value['work-hours'][0]; ?>

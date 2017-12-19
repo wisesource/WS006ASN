@@ -32,12 +32,6 @@
                         echo $news_exc."...";
                     ?>
 
-                    <div class="newsItemMeta">
-                      <i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo get_the_date('d M Y'); 
-                       if (get_post_meta($post->ID,'source_name')) { 
-                         echo " | <a href='".get_post_meta($post->ID,'source_link')[0]."' target='_blank'>".get_post_meta($post->ID,'source_name')[0]."</a>";
-                          } ?>
-                    </div>
                     </div>
                 </div> 
             
@@ -45,7 +39,6 @@
             
         </div>
             
-   <?php paginate(); ?>
 
         
     </div>

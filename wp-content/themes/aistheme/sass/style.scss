@@ -118,15 +118,11 @@ body {
 
 a {
 	outline: 0px!important;
-	color: #7D7D7D;
+	color: #6A7378;
 	text-decoration: none!important;
 	&:hover,&:active,&:focus {
-		color: #7D7D7D;
+		color: #6A7378;
 	}
-}
-
-a[href^=tel],a[href^=mailto] {
-    color: white;
 }
 
 button,input {
@@ -210,7 +206,7 @@ header {
 		nav {	
 
 			.navbar-toggler {
-				color: #00A8A2;
+				color: #1465AD;
 			}
 
 			.navbar-brand {
@@ -265,11 +261,11 @@ header {
 					}
 
 					&:hover, &:focus {
-						color: #FFF;
+						color: #E2E2E2;
 					}
 
 					&:active {
-						color: #FFF;
+						color: #E2E2E2;
 					}												
 				}				
 			}
@@ -318,7 +314,7 @@ header {
 					    padding-bottom: 0px;
 
 					    @media(min-width: 992px) {
-					    	border-top: 4px solid #00A8A2;
+					    	border-top: 4px solid #1465AD;
 
 						    &::before {
 							    font-family: FontAwesome;
@@ -327,13 +323,13 @@ header {
 							    top: -24px;
 							    left: 20px;
 							    font-size: 21px;
-							    color: #00A8A2;
+							    color: #1465AD;
 						    }					    	
 					    }
 					    .nav-item {
 
 				    		@media(min-width: 992px) {
-						    	border: 1px solid #00A8A2;
+						    	border: 1px solid #1465AD;
 						    	border-top: 0px;
 						    	padding: 5px 0px;
 						    	padding-bottom: 9px;
@@ -474,6 +470,23 @@ header {
 
 // Pages 
 
+.topLogo {
+	position: relative;
+	width: 100%;
+	height: 185px;
+
+	img {
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		height: auto;
+
+	}
+}
+
 .pageContainer {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -558,12 +571,60 @@ header {
 
 		}
 	}
+
+	a {
+		color: #6A7378;
+	}
 }
 
+.partnerRow { 
+	margin-bottom: 80px;
 
+	&:nth-child(even) {
+		div.imageHolder {
+			order: 1
+		}
+
+		div.contentHolder {
+			order: 2;
+		}
+	}
+
+	a {
+
+		display: inline-block;
+		position: relative;
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 15px;
+
+		&.websiteLink {
+			color: #1465AD;
+		}
+
+		&.catalogLink {
+			color: #AD146B;
+		}
+
+		&:after {
+			content: "...";
+		    font-weight: bold;
+		    position: absolute;
+		    right: -15px;
+		    line-height: 0.5em;
+		    vertical-align: middle;
+		}
+
+
+	}
+}
 
 }
 
+img.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
 
 .mapWrap {
 	height: 360px!important;
@@ -572,8 +633,38 @@ header {
 footer {
 
 	background-color: #495258;
+	color: #B0B7BB;
 	padding-top: 45px;
 	padding-bottom: 25px;
+	font-size: 12px;
+
+	h2.widgettitle {
+		font-size: 18px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	a {
+		color: #B0B7BB!important;
+	}
+
+	.footerCreds {
+		border-top: 1px solid #5C6770;
+		padding-top: 15px;
+		margin-top: 35px;
+		text-align: center;
+
+		@media (min-width: 768px) {
+
+			text-align: left;
+
+		.wsCred {
+			text-align: right;
+		}
+
+
+		}
+	}
 
 }
 

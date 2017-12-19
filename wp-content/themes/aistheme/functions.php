@@ -32,4 +32,12 @@ function out($var) {
    }
 
 
-
+if (class_exists('MultiPostThumbnails')) {
+ 
+new MultiPostThumbnails(array(
+'label' => 'Partner Logo',
+'id' => 'partner-logo',
+'post_type' => 'partners'
+ ) );
+ 
+ }
